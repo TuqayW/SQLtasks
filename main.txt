@@ -1,0 +1,23 @@
+32)UPDATE Product
+SET Price = 300
+WHERE productID=1;
+33)UPDATE Product
+SET country = "KOREA"
+WHERE productID=4;
+34)UPDATE Product
+SET maker= "Mercedes Benz"
+WHERE productID=3;
+35)UPDATE Product
+SET totalSales= 130323
+WHERE productID=4;
+36)ALTER TABLE Product
+ADD GENRE VARCHAR(256);
+37)ALTER TABLE Product
+DROP column country;
+38)ALTER TABLE Product
+ALTER COLUMN Price INT(20) Price;
+39)ALTER TABLE Product
+RENAME Column totalSales to totalOrder
+40)ALTER TABLE Product
+ADD CONSTRAINT productId PRIMARY KEY (id);
+41)
